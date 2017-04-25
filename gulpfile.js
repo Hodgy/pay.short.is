@@ -4,7 +4,6 @@ const del = require('del'),
       sass = require('gulp-sass'),
       run = require('gulp-run'),
       gutil = require('gulp-util'),
-      ftp = require('vinyl-ftp'),
       notifier = require('node-notifier');
 
 
@@ -37,25 +36,6 @@ gulp.task('css', () => {
 
 gulp.task('clean', () => {
   return del.sync([path.dest.css]);
-});
-
-
-gulp.task('deploy', () => {
-  const args = minimist = require('minimist')(process.argv.slice(2));
-  const remotePath = '/websites/short.is/pay/';
-  const conn = ftp.create({
-    host: args.host,
-    user: args.user,
-    password: args.password,
-    log: gutil.log
-  });
-  const globs = [
-    './**/*',
-    '!node_modules'
-  ];
-  gulp.src(globs, {buffer: false, dot: false})
-    .pipe(conn.newer(remotePath))
-    .pipe(conn.dest(remotePath));
 });
 
 
