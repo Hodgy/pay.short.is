@@ -17,7 +17,7 @@
       <a class="providers__item" href="https://paypal.me/tdchodgy/<?= $paymentValue; ?>">
         <img class="providers__icon" src="img/paypal.svg">
       </a>
-      <a class="providers__item" href="https://monzo.me/jameshdogson/<?= $paymentValue; ?>">
+      <a class="providers__item" href="https://monzo.me/jameshodgson/<?= $paymentValue; ?>">
         <img class="providers__icon" src="img/monzo.svg">
       </a>
     </div>
