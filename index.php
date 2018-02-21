@@ -20,6 +20,9 @@
       <a class="providers__item" href="https://monzo.me/jameshodgson/<?= $paymentValue; ?>">
         <img class="providers__icon" src="img/monzo.svg">
       </a>
+      <a class="providers__item" href="https://settleup.starlingbank.com/jameshodgson?amount=<?= $paymentValue; ?>">
+        <img class="providers__icon" src="img/starling.svg">
+      </a>
     </div>
   </body>
 </html>
