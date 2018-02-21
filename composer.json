@@ -1,5 +1,16 @@
 {
     "name": "hodgy/pay.tdchodgy.co.uk",
-    "description": "Payment gateway app",
+    "description": "PayPal, Monzo and Starling payment gateway",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Alan Shortis",
+            "email": "alan.shortis@mac.com"
+        },
+        {
+            "name": "James Hodgson",
+            "email": "james@tdchodgy.co.uk"
+        }
+    ],
     "require": {}
 }

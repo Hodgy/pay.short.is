@@ -1,12 +1,21 @@
 {
-  "name": "pay.short.is",
+  "name": "pay.tdchodgy.co.uk",
   "version": "1.0.0",
-  "description": "PayPal and Monzo payment gateway",
+  "description": "PayPal, Monzo and Starling payment gateway",
   "main": "index.php",
-  "repository": "git@github.com:alanshortis/pay.short.is.git",
-  "author": "Alan Shortis <alan.shortis@mac.com>",
+  "repository": "git@github.com:Hodgy/pay.tdchodgy.co.uk.git",
+  "contributors": [
+    {
+      "name": "Alan Shortis",
+      "email": "alan.shortis@mac.com"
+    },
+    {
+      "name": "James Hodgson",
+      "email": "james@tdchodgy.co.uk"
+    }
+  ],
   "license": "MIT",
-  "dependencies" : {
+  "dependencies": {
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
@@ -16,7 +25,6 @@
     "node-notifier": "^5.0.2"
   },
   "devDependencies": {
-
   },
   "scripts": {
     "postinstall": "./node_modules/.bin/gulp",

@@ -1,8 +1,8 @@
-# PayPal and Monzo payment gateway
+# PayPal, Monzo and Starling payment gateway
 
 Sounds more fancy than it is...
 
 * Take a value from the URL.
-* Ask if the payment should go to [PayPal](https://www.paypal.me/shortis) or [Monzo](https://monzo.me/alanshortis).
+* Ask if the payment should go to [PayPal](https://www.paypal.me/), [Monzo](https://monzo.me/) or [Starling](https://settleup.starlingbank.com).
 * Go to chosen provider with the value intact.
-* Monzo can only accept payments up to £100, so go to PayPal automatically if the value is over that limit.
+* Due to limits with Monzo & Starling payments over £100 will go straight to PayPal
